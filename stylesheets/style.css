@@ -41,12 +41,11 @@ a { outline: none !important; }
 
 .centered.large { max-width: 920px; padding: 20px; width: 100%; min-height: 400px; }
 @media screen and (max-width: 992px) { .centered.large { position: relative !important; padding: 0 !important; height: auto !important; } }
-
 section { min-height: 100%; width: 100%; position: relative; padding: 75px 30px; }
 @media screen and (max-width: 620px) { section { padding: 50px 20px; } }
 section#home { height: 100%; }
 section#home p { color: #000; }
-section#about .centered { height: 250px; }
+section#about .centered { height: 500px; }
 section#portfolio .item { display: inline-block; margin-bottom: 40px; position: relative; width: 100%; overflow: hidden; }
 @media screen and (max-width: 620px) { section#portfolio .item { margin-bottom: 20px; } }
 section#portfolio .item img { max-width: 100%; width: 100%; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; }
